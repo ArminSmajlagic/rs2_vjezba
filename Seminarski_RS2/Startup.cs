@@ -1,3 +1,4 @@
+using DB.DB_Access;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -7,10 +8,13 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using Models.API;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using WEB_API.Models;
+using WEB_API.Services;
 
 namespace Seminarski_RS2
 {
@@ -32,6 +36,10 @@ namespace Seminarski_RS2
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Seminarski_RS2", Version = "v1" });
             });
+
+            services.AddTransient<IKorisnikServis, KorisnikServis>();
+
+            services.AddDbContext<DB_Context>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
