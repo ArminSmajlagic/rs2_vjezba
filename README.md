@@ -1,2 +1,0 @@
-# RSII_Seminarski
- 
