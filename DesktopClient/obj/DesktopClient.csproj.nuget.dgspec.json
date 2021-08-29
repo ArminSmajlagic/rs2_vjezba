@@ -28,8 +28,8 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\pc\\Documents\\GitHub\\Seminarski_RS2\\Services\\Services.csproj": {
-                "projectPath": "C:\\Users\\pc\\Documents\\GitHub\\Seminarski_RS2\\Services\\Services.csproj"
+              "C:\\Users\\pc\\Documents\\GitHub\\Seminarski_RS2\\Models\\Seminarski_RS2.Models.csproj": {
+                "projectPath": "C:\\Users\\pc\\Documents\\GitHub\\Seminarski_RS2\\Models\\Seminarski_RS2.Models.csproj"
               }
             }
           }
@@ -43,6 +43,16 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "Flurl.Http": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -65,14 +75,14 @@
         }
       }
     },
-    "C:\\Users\\pc\\Documents\\GitHub\\Seminarski_RS2\\Services\\Services.csproj": {
+    "C:\\Users\\pc\\Documents\\GitHub\\Seminarski_RS2\\Models\\Seminarski_RS2.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\pc\\Documents\\GitHub\\Seminarski_RS2\\Services\\Services.csproj",
-        "projectName": "Services",
-        "projectPath": "C:\\Users\\pc\\Documents\\GitHub\\Seminarski_RS2\\Services\\Services.csproj",
+        "projectUniqueName": "C:\\Users\\pc\\Documents\\GitHub\\Seminarski_RS2\\Models\\Seminarski_RS2.Models.csproj",
+        "projectName": "Seminarski_RS2.Models",
+        "projectPath": "C:\\Users\\pc\\Documents\\GitHub\\Seminarski_RS2\\Models\\Seminarski_RS2.Models.csproj",
         "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\pc\\Documents\\GitHub\\Seminarski_RS2\\Services\\obj\\",
+        "outputPath": "C:\\Users\\pc\\Documents\\GitHub\\Seminarski_RS2\\Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -100,12 +110,6 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "dependencies": {
-            "Flurl.Http": {
-              "target": "Package",
-              "version": "[3.2.0, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",

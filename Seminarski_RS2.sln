@@ -5,13 +5,11 @@ VisualStudioVersion = 16.0.31605.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WEB_API", "Seminarski_RS2\WEB_API.csproj", "{03A0B760-21FC-47B5-B912-0296E099C434}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{838A3DB7-5000-44DD-A58D-0F5E2EC10143}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seminarski_RS2.Models", "Models\Seminarski_RS2.Models.csproj", "{838A3DB7-5000-44DD-A58D-0F5E2EC10143}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DB", "DB\DB.csproj", "{3EDBA784-A473-470B-8169-0FD6D3FC2EBD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{6A2F73DA-2518-4FCE-8698-4C49FE2B6D60}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesktopClient", "DesktopClient\DesktopClient.csproj", "{80FED88B-A0C2-4424-8205-E1FF1C91219D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Seminarski_RS2.DesktopClient", "DesktopClient\Seminarski_RS2.DesktopClient.csproj", "{80FED88B-A0C2-4424-8205-E1FF1C91219D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,10 +29,6 @@ Global
 		{3EDBA784-A473-470B-8169-0FD6D3FC2EBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EDBA784-A473-470B-8169-0FD6D3FC2EBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EDBA784-A473-470B-8169-0FD6D3FC2EBD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6A2F73DA-2518-4FCE-8698-4C49FE2B6D60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6A2F73DA-2518-4FCE-8698-4C49FE2B6D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6A2F73DA-2518-4FCE-8698-4C49FE2B6D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6A2F73DA-2518-4FCE-8698-4C49FE2B6D60}.Release|Any CPU.Build.0 = Release|Any CPU
 		{80FED88B-A0C2-4424-8205-E1FF1C91219D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{80FED88B-A0C2-4424-8205-E1FF1C91219D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80FED88B-A0C2-4424-8205-E1FF1C91219D}.Release|Any CPU.ActiveCfg = Release|Any CPU

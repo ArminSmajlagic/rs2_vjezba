@@ -17,9 +17,13 @@ C:\Users\pc\Documents\GitHub\Seminarski_RS2\DesktopClient\obj\Debug\net5.0-windo
 C:\Users\pc\Documents\GitHub\Seminarski_RS2\DesktopClient\obj\Debug\net5.0-windows\ref\DesktopClient.dll
 C:\Users\pc\Documents\GitHub\Seminarski_RS2\DesktopClient\obj\Debug\net5.0-windows\DesktopClient.pdb
 C:\Users\pc\Documents\GitHub\Seminarski_RS2\DesktopClient\obj\Debug\net5.0-windows\DesktopClient.genruntimeconfig.cache
-C:\Users\pc\Documents\GitHub\Seminarski_RS2\DesktopClient\bin\Debug\net5.0-windows\Services.dll
-C:\Users\pc\Documents\GitHub\Seminarski_RS2\DesktopClient\bin\Debug\net5.0-windows\Services.pdb
 C:\Users\pc\Documents\GitHub\Seminarski_RS2\DesktopClient\obj\Debug\net5.0-windows\DesktopClient.csproj.CopyComplete
 C:\Users\pc\Documents\GitHub\Seminarski_RS2\DesktopClient\bin\Debug\net5.0-windows\Flurl.dll
 C:\Users\pc\Documents\GitHub\Seminarski_RS2\DesktopClient\bin\Debug\net5.0-windows\Flurl.Http.dll
 C:\Users\pc\Documents\GitHub\Seminarski_RS2\DesktopClient\bin\Debug\net5.0-windows\Newtonsoft.Json.dll
+C:\Users\pc\Documents\GitHub\Seminarski_RS2\DesktopClient\bin\Debug\net5.0-windows\System.Net.Http.Formatting.dll
+C:\Users\pc\Documents\GitHub\Seminarski_RS2\DesktopClient\bin\Debug\net5.0-windows\Newtonsoft.Json.Bson.dll
+C:\Users\pc\Documents\GitHub\Seminarski_RS2\DesktopClient\obj\Debug\net5.0-windows\DesktopClient.ModalForm.resources
+C:\Users\pc\Documents\GitHub\Seminarski_RS2\DesktopClient\obj\Debug\net5.0-windows\DesktopClient.KorisnikDetaljiForma.resources
+C:\Users\pc\Documents\GitHub\Seminarski_RS2\DesktopClient\bin\Debug\net5.0-windows\Seminarski_RS2.Models.dll
+C:\Users\pc\Documents\GitHub\Seminarski_RS2\DesktopClient\bin\Debug\net5.0-windows\Seminarski_RS2.Models.pdb

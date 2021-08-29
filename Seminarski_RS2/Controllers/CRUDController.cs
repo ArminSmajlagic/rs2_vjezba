@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +19,7 @@ namespace WEB_API.Controllers
         }
 
        [HttpGet]
-        public virtual IEnumerable<T>  Get([FromQuery] TSearch t)
+        public virtual IEnumerable<TMap>  Get([FromQuery] TSearch t)
         {
             return _service.Get(t);
         }

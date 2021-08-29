@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using DB.DB_Access;
 using Models.API;
 using WEB_API.Models;
@@ -12,15 +13,19 @@ namespace WEB_API.Services
     {
 
         public readonly DB_Context __db;
+        public readonly IMapper __mapper;
 
-        public CRUDService(DB_Context db)
+        public CRUDService(DB_Context db, IMapper mapper)
         {
             __db = db;
+            __mapper = mapper;
+
         }
 
-        public virtual IEnumerable<T> Get(TSearch t = null)
+        public virtual IEnumerable<TMap> Get(TSearch t = null)
         {
-            return __db.Set<T>().ToList();
+
+            return __mapper.Map<IEnumerable<TMap>>(__db.Set<T>().ToList());
         }
 
         public T GetByID(int i)

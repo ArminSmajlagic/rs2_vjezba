@@ -7,7 +7,7 @@ namespace WEB_API.Services
 {
     public interface IReadService<T,TMap,TSearch> where TSearch:class
     {
-        public IEnumerable<T> Get(TSearch t = null);
+        public IEnumerable<TMap> Get(TSearch t = null);
         public T GetByID(int i);
     }
 }

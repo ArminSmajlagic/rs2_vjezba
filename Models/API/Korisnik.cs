@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WEB_API.Models
+namespace Models.API
 {
     public class Korisnik
     {

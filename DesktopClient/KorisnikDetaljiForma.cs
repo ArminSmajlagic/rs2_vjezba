@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace DesktopClient
 {
-    public partial class StartupForm : Form
+    public partial class KorisnikDetaljiForma : Form
     {
-        MainClientDisplay display = new MainClientDisplay();
-
-        public StartupForm()
+        public KorisnikDetaljiForma()
         {
             InitializeComponent();
-        }
-
-        private void letmein_Click(object sender, EventArgs e)
-        {
-            display.ShowDialog();
         }
     }
 }

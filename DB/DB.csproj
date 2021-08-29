@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Models\Models.csproj" />
+    <ProjectReference Include="..\Models\Seminarski_RS2.Models.csproj" />
   </ItemGroup>
 
 </Project>

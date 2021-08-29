@@ -10,12 +10,11 @@ using WEB_API.Services;
 
 namespace WEB_API.Controllers
 {
-    [Authorize]
     [ApiController]
     [Route("[controller]")]
-    public class KorisniciKontroller:CRUDController<Korisnik,User,KorsinikSearchObject>
+    public class KorisniciController:CRUDController<Korisnik, User,KorsinikSearchObject>
     {
-        public KorisniciKontroller(IKorisnikServis servis):base(servis)
+        public KorisniciController(IKorisnikServis servis):base(servis)
         {
 
         }

@@ -10,18 +10,22 @@ using System.Windows.Forms;
 
 namespace DesktopClient
 {
-    public partial class StartupForm : Form
+    public partial class ModalForm : Form
     {
-        MainClientDisplay display = new MainClientDisplay();
-
-        public StartupForm()
+        public ModalForm(string msg)
         {
             InitializeComponent();
+            OnLoad(msg);
         }
 
-        private void letmein_Click(object sender, EventArgs e)
+        private void OnLoad(string msg)
         {
-            display.ShowDialog();
+            lblMessage.Text = msg;
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

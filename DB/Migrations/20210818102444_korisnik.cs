@@ -2,7 +2,7 @@
 
 namespace DB.Migrations
 {
-    public partial class initial : Migration
+    public partial class korisnik : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -15,6 +15,8 @@ namespace DB.Migrations
                     username = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: true),
                     password = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: true),
                     ime_prezime = table.Column<string>(type: "nvarchar(25)", maxLength: 25, nullable: true),
+                    hash = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: true),
+                    salt = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: true),
                     img = table.Column<string>(type: "nvarchar(250)", maxLength: 250, nullable: true)
                 },
                 constraints: table =>

@@ -12,7 +12,7 @@
           "Microsoft.EntityFrameworkCore.Design": "5.0.9",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.9",
           "Microsoft.EntityFrameworkCore.Tools": "5.0.9",
-          "Models": "1.0.0"
+          "Seminarski_RS2.Models": "1.0.0"
         },
         "runtime": {
           "DB.dll": {}
@@ -1069,9 +1069,9 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
-      "Models/1.0.0": {
+      "Seminarski_RS2.Models/1.0.0": {
         "runtime": {
-          "Models.dll": {}
+          "Seminarski_RS2.Models.dll": {}
         }
       }
     }
@@ -1761,7 +1761,7 @@
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
     },
-    "Models/1.0.0": {
+    "Seminarski_RS2.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

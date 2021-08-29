@@ -1,3 +1,4 @@
+
 using DB.DB_Access;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -15,6 +16,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using WEB_API.Models;
 using WEB_API.Services;
+using AutoMapper;
 
 namespace Seminarski_RS2
 {
@@ -30,7 +32,8 @@ namespace Seminarski_RS2
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-
+            
+            services.AddAutoMapper(typeof(Startup));
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -38,7 +41,6 @@ namespace Seminarski_RS2
             });
 
             services.AddTransient<IKorisnikServis, KorisnikServis>();
-
             services.AddDbContext<DB_Context>();
         }
 

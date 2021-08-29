@@ -13,7 +13,7 @@ namespace DB.DB_Access
     {
         public DB_Context(DbContextOptions opt):base(opt){}
 
-        public DbSet<User> korisnici { get; set; }
+        public DbSet<Korisnik> korisnici { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder opt_builder)
         {

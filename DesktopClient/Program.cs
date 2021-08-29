@@ -1,4 +1,4 @@
-using Services.Forms;
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,10 +19,9 @@ namespace DesktopClient
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
 
-            AuthPrimitive auth = new AuthPrimitive();
 
 
-            Application.Run(new StartupForm(auth));
+            Application.Run(new StartupForm());
         }
     }
 }

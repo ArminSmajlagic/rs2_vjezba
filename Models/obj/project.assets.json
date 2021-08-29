@@ -8,20 +8,25 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\pc\\.nuget\\packages\\": {}
+    "C:\\Users\\pc\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc\\Documents\\GitHub\\Seminarski_RS2\\Models\\Models.csproj",
-      "projectName": "Models",
-      "projectPath": "C:\\Users\\pc\\Documents\\GitHub\\Seminarski_RS2\\Models\\Models.csproj",
+      "projectUniqueName": "C:\\Users\\pc\\Documents\\GitHub\\Seminarski_RS2\\Models\\Seminarski_RS2.Models.csproj",
+      "projectName": "Seminarski_RS2.Models",
+      "projectPath": "C:\\Users\\pc\\Documents\\GitHub\\Seminarski_RS2\\Models\\Seminarski_RS2.Models.csproj",
       "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\pc\\Documents\\GitHub\\Seminarski_RS2\\Models\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
         "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
