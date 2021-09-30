@@ -17,6 +17,9 @@ using System.Threading.Tasks;
 using WEB_API.Models;
 using WEB_API.Services;
 using AutoMapper;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
+using WEB_API.Security;
 
 namespace Seminarski_RS2
 {
@@ -29,22 +32,30 @@ namespace Seminarski_RS2
 
         public IConfiguration Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            
+
+            //services.AddAuthentication("jwt_bearer")
+            //        .AddJwtBearer("jwt_bearer",
+            //            config=> {
+            //                config.Authority = "https://localhost:44324/";
+            //                config.Audience = "TheMainApi";
+            //            }   
+            //        );         
+
             services.AddAutoMapper(typeof(Startup));
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Seminarski_RS2", Version = "v1" });
+                c.AddSecurityDefinition("basicAuth", new OpenApiSecurityScheme() { Scheme:})
             });
 
             services.AddTransient<IKorisnikServis, KorisnikServis>();
+            services.AddTransient<AuthService>();
             services.AddDbContext<DB_Context>();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
@@ -53,13 +64,10 @@ namespace Seminarski_RS2
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Seminarski_RS2 v1"));
             }
-
             app.UseHttpsRedirection();
-
             app.UseRouting();
-
-            app.UseAuthorization();
-
+           // app.UseAuthentication();
+           // app.UseAuthorization();
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();

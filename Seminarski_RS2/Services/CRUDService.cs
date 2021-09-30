@@ -12,7 +12,7 @@ namespace WEB_API.Services
     public class CRUDService<T,TMap,TSearch> : ICrudService<T, TMap, TSearch> where TSearch:class where T:class
     {
 
-        public readonly DB_Context __db;
+        protected readonly DB_Context __db;
         public readonly IMapper __mapper;
 
         public CRUDService(DB_Context db, IMapper mapper)
@@ -32,5 +32,23 @@ namespace WEB_API.Services
         {
             return __db.Set<T>().Find(i);
         }
+
+        public TMap Insert(T obj)
+        {
+            throw new NotImplementedException();
+        }
+
+        public TMap Update(int id, T obj)
+        {
+            throw new NotImplementedException();
+        }
+
+        //public virtual async Task<T> Login(string username, string psw)
+        //{
+        //    var entity = __db.Set<T>().FirstOrDefault();
+
+        //    return entity;
+        //}
+
     }
 }

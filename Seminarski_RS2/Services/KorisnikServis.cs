@@ -1,10 +1,11 @@
 ﻿using AutoMapper;
 using DB.DB_Access;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authentication;
 using Models.API;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
 using WEB_API.Models;
 
@@ -36,5 +37,24 @@ namespace WEB_API.Services
 
             return __mapper.Map<List<User>>(entity.ToList());
         }
+
+        //public override async Task<Korisnik> Login(string user,string pwd)
+        //{
+        //    var korisnik = __db.korisnici.FirstOrDefault(x => x.username == user && x.password == pwd);
+        //    if (korisnik!=null)
+        //    {
+        //        var claims = new List<Claim>()
+        //        {
+        //            new Claim(ClaimTypes.Name,user),
+        //        };
+
+        //        var identity = new ClaimsIdentity(claims, "OAuth identity");
+        //        var principle = new ClaimsPrincipal(new[] { identity });
+        //    }
+
+        //    HttpContext.SignInAsync()
+
+        //    return korisnik;
+        //}
     }
 }

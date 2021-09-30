@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "QTUF46SALFfPM8rT6VjTY994lKx9nOLVMFlVLXmqlHHSm5p622PQKTjc2Un5QxCIqb4sY325wAuKWskuAwS1QQ==",
+  "dgSpecHash": "iJ4FRCkOfQ9nVX7KDxr1yp0yw6OmoMm7EUR08G3W5+phaaG5MOLm5MRn0k5A1fryil896ZXgFqf70eeVehHEzw==",
   "success": true,
   "projectFilePath": "C:\\Users\\pc\\Documents\\GitHub\\Seminarski_RS2\\DesktopClient\\Seminarski_RS2.DesktopClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pc\\.nuget\\packages\\flurl\\3.0.2\\flurl.3.0.2.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\flurl.http\\3.2.0\\flurl.http.3.2.0.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\identitymodel\\5.1.0\\identitymodel.5.1.0.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\identityserver4.storage\\4.1.2\\identityserver4.storage.4.1.2.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
@@ -77,6 +79,8 @@
     "C:\\Users\\pc\\.nuget\\packages\\system.text.encoding\\4.3.0\\system.text.encoding.4.3.0.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\system.text.encoding.extensions\\4.3.0\\system.text.encoding.extensions.4.3.0.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\system.text.encodings.web\\5.0.1\\system.text.encodings.web.5.0.1.nupkg.sha512",
+    "C:\\Users\\pc\\.nuget\\packages\\system.text.json\\5.0.1\\system.text.json.5.0.1.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\system.text.regularexpressions\\4.3.0\\system.text.regularexpressions.4.3.0.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
     "C:\\Users\\pc\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",

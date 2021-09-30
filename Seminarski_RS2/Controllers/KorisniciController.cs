@@ -18,5 +18,25 @@ namespace WEB_API.Controllers
         {
 
         }
+
+
+        //public async Task<Korisnik> Login(Korisnik user)
+        //{
+        //    var korisnik = _service.Get(user);
+        //    if (korisnik != null)
+        //    {
+        //        var claims = new List<Claim>()
+        //        {
+        //            new Claim(ClaimTypes.Name,user),
+        //        };
+
+        //        var identity = new ClaimsIdentity(claims, "OAuth identity");
+        //        var principle = new ClaimsPrincipal(new[] { identity });
+        //    }
+
+        //    HttpContext.SignInAsync()
+
+        //    return entity;
+        //}
     }
 }

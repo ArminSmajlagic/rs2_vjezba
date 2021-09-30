@@ -65,3 +65,8 @@ C:\Users\pc\Documents\GitHub\Seminarski_RS2\Seminarski_RS2\obj\Debug\net5.0\WEB_
 C:\Users\pc\Documents\GitHub\Seminarski_RS2\Seminarski_RS2\obj\Debug\net5.0\WEB_API.genruntimeconfig.cache
 C:\Users\pc\Documents\GitHub\Seminarski_RS2\Seminarski_RS2\bin\Debug\net5.0\Seminarski_RS2.Models.dll
 C:\Users\pc\Documents\GitHub\Seminarski_RS2\Seminarski_RS2\bin\Debug\net5.0\Seminarski_RS2.Models.pdb
+C:\Users\pc\Documents\GitHub\Seminarski_RS2\Seminarski_RS2\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\pc\Documents\GitHub\Seminarski_RS2\Seminarski_RS2\bin\Debug\net5.0\IdentityModel.dll
+C:\Users\pc\Documents\GitHub\Seminarski_RS2\Seminarski_RS2\bin\Debug\net5.0\IdentityServer4.dll
+C:\Users\pc\Documents\GitHub\Seminarski_RS2\Seminarski_RS2\bin\Debug\net5.0\IdentityServer4.Storage.dll
+C:\Users\pc\Documents\GitHub\Seminarski_RS2\Seminarski_RS2\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
